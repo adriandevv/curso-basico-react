@@ -1,0 +1,20 @@
+.TodoCounter-container {
+  display: flex;
+  justify-content: space-around;
+  color: #0a56a2;
+}
+
+.TodoCounter {
+  font-size: xx-large;
+  text-align: center;
+  font-weight: bold;
+}
+
+.date {
+  font-weight: 200;
+}
+
+.smallMessage {
+  font-weight: bold;
+  font-size: x-large;
+}

@@ -1,0 +1,25 @@
+.Add-container {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.newTask {
+  width: 85%;
+  height: 35px;
+  border: 0;
+  background-color: #ffbdea;
+}
+.newTask:focus {
+  outline: 0;
+}
+.newTask::placeholder {
+  color: rgb(121, 113, 113);
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+section {
+  margin-left: 3%;
+  margin-right: 3%;
+}
