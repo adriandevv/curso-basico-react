@@ -1,0 +1,28 @@
+.item-Container{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: content-box;
+    border-width: 5px;
+    margin-top: 10px;
+    box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
+
+}
+
+.item-Container p{
+    display: inline;
+    margin-top: 10px;
+}
+
+.item-Container span{
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.completed-check{
+    text-decoration: line-through;
+}
+
+.fa-x:hover{
+    color: red;
+}

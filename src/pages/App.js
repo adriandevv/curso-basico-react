@@ -13,7 +13,7 @@ const todos = [
   },
   {
     text: "hacer tarea",
-    completed: false,
+    completed: true,
   },
   {
     text: "decir F en el chat",
@@ -28,7 +28,7 @@ function App(props) {
       <TodoSearch />
       <TodoList>
         {todos.map((todo) => (
-          <TodoItem key={todo.text} text={todo.text} />
+          <TodoItem key={todo.text} text={todo.text} completed={todo.completed} />
         ))}
       </TodoList>
       <CreateTodoButon />
