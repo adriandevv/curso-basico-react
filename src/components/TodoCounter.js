@@ -1,15 +1,20 @@
 import React from "react";
 import "../styles/TodoCounter.css";
-function TodoCounter(props) {
+import { TodoContext } from '../context/TodoContext';
+
+function TodoCounter() {
+  const { totalTodos, completedTodos } = React.useContext(TodoContext);
+  let today = new Date();
+  let date = today.getFullYear() + '  -  ' + (today.getMonth() + 1) + '  -  ' + today.getDate();
   return (
     <div className="TodoCounter-container">
       <h1 className="TodoCounter">
-        <i className="fa-solid fa-list-check"></i> Tasks of the day{" "}
+        <i className="fa-solid fa-list-check"></i> Tasks of the day
       </h1>
       <section>
-        <h3 className="date">Wednesday, March 23rd</h3>
+        <h3 className="date">{date}</h3>
         <p className="smallMessage"
-        >{props.total-props.completedNow} left of {props.total} TODOs</p>
+        >{totalTodos - completedTodos} left of {totalTodos} TODOs</p>
       </section>
     </div>
   );

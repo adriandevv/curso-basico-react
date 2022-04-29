@@ -1,7 +1,7 @@
 .TodoCounter-container {
   display: flex;
   justify-content: space-around;
-  color: #0a56a2;
+  color: #efdddd;
 }
 
 .TodoCounter {
@@ -12,7 +12,7 @@
 
 .date {
   font-weight: 200;
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 .smallMessage {

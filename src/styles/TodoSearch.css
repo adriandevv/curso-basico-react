@@ -1,6 +1,6 @@
 .Add-container {
   text-align: center;
-  border: 2px solid black;
+  border: 2px solid #efdddd;
   border-radius: 15px;
 }
 
@@ -8,13 +8,13 @@
   width: 85%;
   height: 35px;
   border: 0;
-  background-color: #ffbdea;
+  background-color: #214a4f;
 }
 .newTask:focus {
   outline: 0;
 }
 .newTask::placeholder {
-  color: rgb(121, 113, 113);
+  color: #9b9780;
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
 }
