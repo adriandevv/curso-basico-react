@@ -2,8 +2,8 @@
   text-align: center;
   border: 2px solid #efdddd;
   border-radius: 15px;
+  transition: 1s;
 }
-
 .newTask {
   width: 85%;
   height: 35px;
@@ -18,7 +18,9 @@
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
 }
-
+.newTask:disabled::placeholder {
+ opacity: 25%;
+}
 section {
   margin-left: 3%;
   margin-right: 3%;
