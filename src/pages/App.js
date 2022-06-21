@@ -10,7 +10,7 @@ import { TodoForm } from "../components/TodoForm";
 import { CreateTodoMessage } from "../components/CreateTodoMessage";
 import { List } from "react-content-loader";
 import { useTodos } from "../context/useTodos";
-import { ChangeAlertWithStorageListener } from "../components/ChangeAlert";
+import { ChangeAlert } from "../components/ChangeAlert";
 
 function App() {
   const {
@@ -73,7 +73,7 @@ function App() {
         </Modal>
       )}
       <CreateTodoButon setOpenModal={setOpenModal} openModal={openModal} />
-      <ChangeAlertWithStorageListener
+      <ChangeAlert
         sincronize={sincronizeTodos}
         deleteRenderItems={deleteRenderItems}
       />
