@@ -1,3 +1,15 @@
+# Curso basico de React
+En el curso se aprendio la composicion de react a utilizar hooks basicos y entender la composicion de una aplicacion react como se pasan valores entre componentes y conocer como manejar el estado de la mejor manera
+
+![image](https://github.com/adrian15996/curso-basico-react/assets/39228043/834d4667-e34f-4b67-a7f0-d58f25a2a519)
+
+## Agregar Tarea
+Precionando el + se agreagan las tareas
+![image](https://github.com/adrian15996/curso-basico-react/assets/39228043/769b696f-32fa-453b-af0d-e80da48fa88c)
+
+## diferentes estados
+![image](https://github.com/adrian15996/curso-basico-react/assets/39228043/dc5da46a-1513-4c1f-a1fc-413f8fc38152)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
